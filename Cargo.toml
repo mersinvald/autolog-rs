@@ -1,0 +1,21 @@
+[package]
+name = "autolog"
+version = "0.1.0"
+authors = ["Mike Lubinets <public@mersinvald.me>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+darling = "0.9.0"
+syn = { version = "0.15", features = ["full"] }
+quote = "0.6"
+proc-macro2 = "0.4.27"
+
+[workspace]
+members = [
+    "./",
+    "./autolog_types",
+    "./test_crate",
+]

@@ -1,0 +1,7 @@
+[package]
+name = "autolog_types"
+version = "0.1.0"
+authors = ["Mike Lubinets <public@mersinvald.me>"]
+edition = "2018"
+
+[dependencies]

@@ -1,0 +1,13 @@
+[package]
+name = "test_crate"
+version = "0.1.0"
+authors = ["Mike Lubinets <public@mersinvald.me>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+autolog = { path = "../" }
+autolog_types = { path = "../autolog_types" }
+proc-macro2 = "0.4.27"
+log = "0.4.6"
+env_logger = "0.6.1"
